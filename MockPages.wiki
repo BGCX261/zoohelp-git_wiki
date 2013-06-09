@@ -1,0 +1,10 @@
+#summary The application will contain following pages
+
+=Main page=
+http://s11.postimg.org/bpuleabdf/zoohelp_Pages_9_06_2013.png
+=List of animals=
+http://s11.postimg.org/zcvk2egpf/zoohelp_Pages_9_06_2013_list.png
+=Single animal=
+http://s11.postimg.org/bboo0y1w3/zoohelp_Pages_9_06_2013_single.png
+=Search page=
+http://s11.postimg.org/lx8jcy87n/zoohelp_Pages_9_06_2013_search.png
