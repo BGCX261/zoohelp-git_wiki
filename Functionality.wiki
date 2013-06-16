@@ -22,3 +22,9 @@ There is a global administrator and moderators. Both can edit any messages in an
 Every user can have a number of accounts to use with different services, like vk, facebook, twitter, news boards. A user can re-post a post from a topic using certain accounts he has access to. There are 2 kinds of services to target:
   * API-based services (vk, facebook, twitter)
   * Services without API(sladno, SMF or different kind of forum etc). Those will be processed with HTMLUnit and probably Spredfast automation framework when it gets opensourced.
+
+= Synchronizing =
+The service can be configured so that it can read the information periodically from particular resources (zoohelp.org, certain pages of vk.com, facebook etc). It can automatically create topics in certain domains (Dogs, Cats, SOS).
+Problems: 
+  * how to avoid duplicate posts?
+  * how to match a post to the domain?
