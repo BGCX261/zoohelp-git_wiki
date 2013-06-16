@@ -1,0 +1,12 @@
+#summary Base functionality
+
+= Users and security =
+Users can register and become registered users.
+Users can shape groups.
+Users can create topics.
+Topic started is automatically set as an admin of the topic.
+A topic's readability can be public or protected:
+* Public topic: everyone can see it
+* Protected topic: only selected users and/or groups can see it
+A topic can be assigned an admins, which can edit and delete messages.
+There is a global administrator and moderators. Moderators shape 'a network of trust', which means that a new moderator can be added by either the administrator or by 2 existing moderators voting for him.
