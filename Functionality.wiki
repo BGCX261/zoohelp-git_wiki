@@ -11,9 +11,14 @@ Topic started is automatically set as an admin of the topic.
 
 A topic's readability can be public or protected:
 
-* Public topic: everyone can see it
-* Protected topic: only selected users and/or groups can see it
+  * Public topic: everyone can see it
+  * Protected topic: only selected users and/or groups can see it
 
 A topic can be assigned an admins, which can edit and delete messages.
 
-There is a global administrator and moderators. Moderators shape 'a network of trust', which means that a new moderator can be added by either the administrator or by 2 existing moderators voting for him.
+There is a global administrator and moderators. Both can edit any messages in any topics. Moderators shape a 'network of trust', which means that a new moderator can be added by either the administrator or by 2 existing moderators voting for him.
+
+= Publishing =
+Every user can have a number of accounts to use with different services, like vk, facebook, twitter, news boards. A user can re-post a post from a topic using certain accounts he has access to. There are 2 kinds of services to target:
+  * API-based services (vk, facebook, twitter)
+  * Services without API(sladno, SMF or different kind of forum etc). Those will be processed with HTMLUnit and probably Spredfast automation framework when it gets opensourced.
