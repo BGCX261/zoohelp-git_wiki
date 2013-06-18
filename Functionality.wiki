@@ -1,4 +1,27 @@
 #summary Base functionality
+= Topics =
+Topics are very similar to common forum topics.
+Each topic fall into one of 3 categories:
+  * Dogs
+  * Cats
+  * SOS
+Each topic has a number of attributes. Attributes can have values. Attributes fall into 2 categories:
+  * Common attributes ("a dog", "age=3")
+  * "Help needed" attributes ("transportation needed", "funds needed", "curator needed").
+Attributes can be edited by the topic started, or by users/groups the topic starter (moderator) grants the permission to do so.
+
+== Searching topics ==
+It should be possible to search for topics by attributes. People willing to help will be able to find where they can help:
+
+  * "show dogs which need transportation"
+  * "show cats which need funds"
+  * "show SOSes for animals older than 7 years which need a curator"
+
+People searching for an animal to adopt will be able to specify the attributes they're looking for:
+
+  * "show dogs younger than 5 month which are going to grow big"
+  * "show cats similar to Britains"
+  * "show white cats"
 
 = Users and security =
 People can register and become users.
@@ -19,6 +42,7 @@ Moderators shape a 'network of trust', which means that a new moderator can be a
 Every user can have a number of accounts to use with different services, like vk, facebook, twitter, news boards. A user can re-post a post from a topic using certain accounts he has access to. There are 2 kinds of services to target:
   * API-based services (vk, facebook, twitter)
   * Services without API(sladno, SMF or different kind of forum etc). Those will be processed with HTMLUnit and probably Spredfast automation framework when it gets opensourced.
+A user can select multiple accounts of multiple services to publish.
 
 = Synchronizing =
 The service can be configured so that it can read the information periodically from particular resources (zoohelp.org, certain pages of vk.com, facebook etc). It can automatically create topics in certain domains (Dogs, Cats, SOS).
