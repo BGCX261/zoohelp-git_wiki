@@ -47,5 +47,6 @@ A user can select multiple accounts of multiple services to publish.
 = Synchronizing =
 The service can be configured so that it can read the information periodically from particular resources (zoohelp.org, certain pages of vk.com, facebook etc). It can automatically create topics in certain domains (Dogs, Cats, SOS).
 Problems: 
+  * how to put attributes automatically?
   * how to avoid duplicate posts?
   * how to match a post to the domain?
