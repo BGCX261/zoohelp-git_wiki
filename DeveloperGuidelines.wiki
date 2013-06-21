@@ -3,6 +3,7 @@
 = Issue tags =
 Issues (either a defect or task) are marked with following tags, which distinguishes functional domains of  the application:
 
+  * *structure* - changes to project structure - arranging source code, build process changes etc.
   * *crud* - base Create Read Update Delete functionality. Everything that manipulates data (users, topics, attributes etc.) falls into this category
   * *security* - Roles, Privileges, visibility/accessibility of certain modules
   * *publishing* - posting to social networks, forums
