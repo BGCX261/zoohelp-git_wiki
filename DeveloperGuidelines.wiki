@@ -1,0 +1,9 @@
+#summary Common development practices of the project
+
+= Issue tags =
+Issues (either a defect or task) are marked with following tags, which distinguishes functional domains of  the application:
+
+  * *crud* - base Create Read Update Delete functionality. Everything that manipulates data (users, topics, attributes etc.) falls into this category
+  * *security* - Roles, Privileges, visibility/accessibility of certain modules
+  * *publishing* - posting to social networks, forums
+  * (add your tag here)
